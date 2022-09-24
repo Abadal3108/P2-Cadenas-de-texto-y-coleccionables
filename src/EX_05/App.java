@@ -9,10 +9,10 @@ public class App {
         Scanner sc = new Scanner(System.in);
         boolean correcto = false;
         do {
-            int mayus = 0;
-            int minus = 0;
-            int simbolos = 0;
-            int numeros = 0;
+            Integer mayus = 0;
+            Integer minus = 0;
+            Integer simbolos = 0;
+            Integer numeros = 0;
             System.out.println("Introduce contraseña, Consideramos una contraseña fuerte si contiene 8 o más caracteres, y entre\n" +
                     "ellos, por lo menos una mayúscula, una minúscula, un símbolo y un dígito.");
             String contraseña = sc.toString();
