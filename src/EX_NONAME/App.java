@@ -12,11 +12,12 @@ public class App {
 
         String[] ary = new String[al.size()];
 
-        //java pide cast? preguntar
+
         ary = (String[]) al.toArray(ary);
 
         for (String s : ary)
             System.out.println(s);
 
     }
+
 }
